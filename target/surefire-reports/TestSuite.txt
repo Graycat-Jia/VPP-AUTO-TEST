@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 44.283 s <<< FAILURE! - in TestSuite
+testcase.AddPowerPlantCase.add_device_manual  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: expected [false] but found [true]
+	at testcase.AddPowerPlantCase.add_device_manual(AddPowerPlantCase.java:65)
+
+testcase.AddPowerPlantCase.add_power_plant  Time elapsed: 1.763 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+Element <button class="el-button login-btn el-button--primary" type="button"> is not clickable at point (993,567) because another element <div class="el-loading-mask is-fullscreen el-loading-fade-leave-active el-loading-fade-leave-to"> obscures it
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'VDI-ZNKZ-001', ip: '20.60.5.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 112.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230414125621, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 54032, moz:profile: C:\Users\GRT-LI~1\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: ff064629-1905-41ee-99fc-d6be6c90d205
+	at testcase.AddPowerPlantCase.add_power_plant(AddPowerPlantCase.java:38)
+

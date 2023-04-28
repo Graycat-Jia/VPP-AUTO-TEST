@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [AutoTestWithReport]">
+  <listeners>
+    <listener class-name="config.GlobyReportConfig"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="ExecutingTestBySuite_self(failed)">
+    <classes>
+      <class name="testcase.AddPowerPlantCase">
+        <methods>
+          <include name="add_power_plant"/>
+          <include name="add_device_manual"/>
+          <include name="initPage"/>
+          <include name="initSource"/>
+          <include name="shutdownSource"/>
+        </methods>
+      </class> <!-- testcase.AddPowerPlantCase -->
+    </classes>
+  </test> <!-- ExecutingTestBySuite_self(failed) -->
+</suite> <!-- Failed suite [AutoTestWithReport] -->
